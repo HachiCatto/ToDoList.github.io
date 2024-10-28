@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main id="main-app-container">
+        <div id="main-title-container">
+            <div id="title-image-container">
+                <img src="FRWllp.jpg" alt="CcWallp" id="title-image">
+            </div>
+            <div id="title-text-container">
+                <h2 id="title-text"><i>Todo</i></h2>
+                <h2 id="scd-title-text"><i>App</i></h2>
+            </div>
+        </div>
+        <div id="todo-form-container">
+            <form action="#" id="todo-form" class="form-list-container">
+                <input type="text" placeholder="¡Coloca tu tarea aquí!" id="task-input-info">
+                <button class="btn-add-task">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                        class="btn-add-task-icon">
+                        <path fill-rule="evenodd"
+                            d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm.75-10.25v2.5h2.5a.75.75 0 0 1 0 1.5h-2.5v2.5a.75.75 0 0 1-1.5 0v-2.5h-2.5a.75.75 0 0 1 0-1.5h2.5v-2.5a.75.75 0 0 1 1.5 0Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+        </div>
+        <div id="task-list-container">
+            <ul id="form-task-list">
+                <li class="current-task">
+                    <button class="btn-check-task">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="btn-check-task-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </button>
+                    <div class="task-text-input">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                    <button class="btn-dlt-task">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="btn-dlt-task-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div id="empty-bttm-text">
+            <p><i>Sin tareas pendientes...</i></p>
+        </div>
+        </form>
+    </main>
+    <main id="PE-main-app-container">
+        <div id="PE-main-title-container">
+            <div id="PE-title-text-container">
+                <h2 id="PE-title-text"><i>Todo</i></h2>
+                <h2 id="PE-scd-title-text"><i>App</i></h2>
+            </div>
+            <div id="PE-title-image-container">
+                <img src="FRWllp.jpg" alt="CcWallp" id="title-image">
+            </div>
+        </div>
+        <div id="PE-todo-form-container">
+            <form action="#" id="PE-todo-form" class="PE-form-list-container">
+                <input type="text" placeholder="¡Coloca tu tarea aquí!" id="PE-task-input-info">
+                <button class="PE-btn-add-task">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                        class="PE-btn-add-task-icon">
+                        <path fill-rule="evenodd"
+                            d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14Zm.75-10.25v2.5h2.5a.75.75 0 0 1 0 1.5h-2.5v2.5a.75.75 0 0 1-1.5 0v-2.5h-2.5a.75.75 0 0 1 0-1.5h2.5v-2.5a.75.75 0 0 1 1.5 0Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+        </div>
+        <div id="PE-task-list-container">
+            <button type="button" class="PE-btn-check-task">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="PE-btn-check-task-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+            </button>
+            <ul id="PE-form-task-list">
+                <li class="PE-current-task">
+                    <div class="PE-task-text-input">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit
+                            in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat
+                            non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+            </ul>
+            <button type="reset" class="PE-btn-dlt-task">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="PE-btn-dlt-task-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+            </button>
+        </div>
+        <div id="PE-empty-bttm-text">
+            <p><i>Sin tareas pendientes...</i></p>
+        </div>
+        </form>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
